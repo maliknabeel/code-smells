@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: code-smells
+
+logging:
+  level:
+    root: INFO
+    org.springframework.web: DEBUG
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} - %logger{50} - %msg%n"
